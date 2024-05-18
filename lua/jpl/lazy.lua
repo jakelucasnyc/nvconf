@@ -129,6 +129,19 @@ require("lazy").setup({
           "MunifTanjim/nui.nvim",
           -- "3rd/image.nvim", -- Optional image support in preview window: See `# Preview Mode` for more information
     },
+    {
+      "kndndrj/nvim-dbee",
+      dependencies = {
+        "MunifTanjim/nui.nvim",
+      },
+      build = function()
+        -- Install tries to automatically detect the install method.
+        -- if it fails, try calling it with one of these parameters:
+        --    "curl", "wget", "bitsadmin", "go"
+        require("dbee").install()
+      end,
+    },
+    
 }
 	
 

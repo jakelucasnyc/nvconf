@@ -19,6 +19,7 @@
   "nvim-autopairs": { "branch": "master", "commit": "096d0baecc34f6c5d8a6dd25851e9d5ad338209b" },
   "nvim-cmp": { "branch": "main", "commit": "04e0ca376d6abdbfc8b52180f8ea236cbfddf782" },
   "nvim-comment": { "branch": "main", "commit": "e9ac16ab056695cad6461173693069ec070d2b23" },
+  "nvim-dbee": { "branch": "master", "commit": "85622c8d95b53f62329627fd461c52fca7cb612b" },
   "nvim-lspconfig": { "branch": "master", "commit": "f12f1b9e877b1e6e2ef7eae1a524d8253af4243d" },
   "nvim-treesitter": { "branch": "master", "commit": "51d15ef5da4fcce3945fabc312ca6847dd64c6e3" },
   "nvim-ts-rainbow2": { "branch": "master", "commit": "b3120cd5ae9ca524af9cb602f41e12e301fa985f" },
@@ -31,6 +32,5 @@
   "vim-dadbod": { "branch": "master", "commit": "37523ffe0849b51db07fa7f48430c2aca5420a0e" },
   "vim-dadbod-completion": { "branch": "master", "commit": "c920cb0ba3dff4b1b0ed373e1c0b3007dec696c2" },
   "vim-dadbod-ui": { "branch": "master", "commit": "5835df6497cc0e79cb149518d01f4f5c86dc546f" },
-  "vim-fugitive": { "branch": "master", "commit": "fab00f7c0f3a08e860e39c7adeb8fbe849921a98" },
   "which-key.nvim": { "branch": "main", "commit": "4433e5ec9a507e5097571ed55c02ea9658fb268a" }
 }
