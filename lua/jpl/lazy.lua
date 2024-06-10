@@ -60,16 +60,16 @@ require("lazy").setup({
         event = "InsertEnter",
         opts = {},
     },
-    {
-        "epwalsh/obsidian.nvim",
-        commit = "6888c76",
-        --branch = "main"
-        ft = "markdown",
-        lazy = false,
-        dependencies = {
-            "nvim-lua/plenary.nvim",
-        },
-    },
+    -- {
+    --     "epwalsh/obsidian.nvim",
+    --     commit = "6888c76",
+    --     --branch = "main"
+    --     ft = "markdown",
+    --     lazy = false,
+    --     dependencies = {
+    --         "nvim-lua/plenary.nvim",
+    --     },
+    -- },
     {
         "zbirenbaum/copilot.lua",
         cmd = "Copilot",
@@ -141,6 +141,7 @@ require("lazy").setup({
         require("dbee").install()
       end,
     },
+    "Vimjas/vim-python-pep8-indent",
     
 }
 	

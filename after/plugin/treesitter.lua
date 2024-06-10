@@ -20,7 +20,7 @@ require'nvim-treesitter.configs'.setup {
         enable = true,
         disable = { "python" },
     },
-    
+ 
 
 	-- Install parsers synchronously (only applied to `ensure_installed`)
 	sync_install = false,
