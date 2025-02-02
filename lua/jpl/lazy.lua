@@ -19,9 +19,13 @@ require("lazy").setup({
 		"nvim-treesitter/nvim-treesitter",
 		build = ":TSUpdate",
 	},
-	"theprimeagen/harpoon",
-	"mbbill/undotree",
+    {
+    "ThePrimeagen/harpoon",
+    branch = "harpoon2",
+    dependencies = { "nvim-lua/plenary.nvim", "nvim-telescope/telescope.nvim" }
+    },
 
+	"mbbill/undotree",
 
     {'williamboman/mason.nvim'},
     {'williamboman/mason-lspconfig.nvim'},
